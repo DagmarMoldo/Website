@@ -317,20 +317,20 @@ body {
 
 @media only screen and (min-width: 768px) {
   html {
-    font-size: 1em; /* 1/3 smaller than the default 1em */
+    font-size: 1em;
   }
 
   body {
-    max-width: 533px; /* 800px × 0.67 */
-    margin: 53px 0 27px 27px; /* scaled down from 80 0 40 40 */
+    max-width: 600px;
+    margin: 53px 0 27px 27px;
   }
 
   .caption {
-    font-size: 8.7px; /* 13px × 0.67 */
+    font-size: 11px;
   }
 
   .artwork {
-    margin-bottom: 40px; /* 60px × 0.67 */
+    margin-bottom: 40px;
   }
 
   .artwork img,
