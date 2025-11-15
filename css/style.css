@@ -339,3 +339,12 @@ body {
   }
 }
 
+/* Removes the dark dimming overlay on Safari desktop */
+video::-webkit-media-controls-panel {
+    background-color: transparent !important;
+}
+
+/* Remove the big play button's background dimming */
+video::-webkit-media-controls-play-button {
+    background-color: transparent !important;
+}
