@@ -363,9 +363,13 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
+details summary::marker {
+  content: "";
+}
+
 details[open] .email {
   margin-left: 6px;
-  font-size: 14px;
+  font-size: 1em;
   background: #333;
   color: #fff;
   padding: 3px 6px;
