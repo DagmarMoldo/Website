@@ -348,3 +348,26 @@ video::-webkit-media-controls-panel {
 video::-webkit-media-controls-play-button {
     background-color: transparent !important;
 }
+
+details {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+details summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] .email {
+  margin-left: 6px;
+  font-size: 14px;
+  background: #333;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
