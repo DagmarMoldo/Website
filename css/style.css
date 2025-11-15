@@ -356,10 +356,6 @@ details {
   margin-bottom: 40px;
 }
 
-.artwork:first-of-type {
-  margin-top: 60px;
-}
-
 details summary {
   list-style: none;
 }
